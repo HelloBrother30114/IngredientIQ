@@ -64,7 +64,7 @@ async def analyze_product(
 
         # Qwen Model Call
         response = client.chat.completions.create(
-            model="qwen/qwen3.6-27b",
+            model="llama-3.2-11b-vision-preview",
             messages=[
                 {
                     "role": "user",
